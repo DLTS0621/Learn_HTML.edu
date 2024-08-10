@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Courses - LearnHTML.edu</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #006699;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #00557F;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .main-content {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #F0F0F0;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 80%;
+            padding: 20px;
+        }
+        .sidebar a {
+            display: block;
+            padding: 5px 0;
+            color: #00557F;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #006699;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LearnHTML.edu</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="forum.html">Forum</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <h3>Topics</h3>
+            <a href="page4.html">What is HTML?</a>
+            <a href="#html-tags">HTML Tags</a>
+            <a href="#basic-tags">Basic Tags Used in HTML</a>
+            <a href="#colors">How to Use Colors</a>
+            <a href="#multimedia">Multimedia in HTML</a>
+            <a href="#table-layouts">Table Layouts</a>
+        </div>
+
+        <div class="container">
+            <ul>
+                <li>HTML is a language for describing web pages.</li>
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML is not a programming language, it is a markup language</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        &copy; LearnHTML.edu - 2020
+    </footer>
+</body>
+</html>
